@@ -82,11 +82,11 @@ h3{font-size:24px;line-height:1.05}
 .chips span{display:inline-flex;align-items:center;gap:7px;padding:8px 13px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.04);font-weight:600;font-size:14px}
 .chips .icon{color:var(--blue-hi)}
 .hero-act .btn{margin:20px auto 0;max-width:420px}
-.stage{position:relative;display:flex;justify-content:center;align-items:center;aspect-ratio:5/4;max-width:520px;margin-inline:auto;width:100%}
+.stage{position:relative;display:flex;justify-content:center;align-items:center;aspect-ratio:1/1;max-width:500px;margin-inline:auto;width:100%}
 .stage:before{content:"";position:absolute;inset:4% 10%;border-radius:50%;background:radial-gradient(circle,rgba(77,154,255,.38),transparent 68%)}
-.stage img{position:relative;width:56%;height:auto;filter:drop-shadow(0 24px 24px rgba(0,0,0,.55));animation:float 5s ease-in-out infinite}
-.stage .w{margin-right:-14%;transform:scale(.9);z-index:1;animation-delay:-2s}
-.stage .b{z-index:2}
+.stage img{position:absolute;width:88%;height:auto;filter:drop-shadow(0 22px 22px rgba(0,0,0,.55));animation:float 5s ease-in-out infinite}
+.stage .w{left:0;top:2%;z-index:1;animation-delay:-2s}
+.stage .b{left:11%;top:8%;z-index:2}
 @keyframes float{50%{translate:0 -10px}}
 
 /* faixa de selos */
@@ -264,7 +264,6 @@ h3{font-size:24px;line-height:1.05}
   .chips{justify-content:flex-start}
   .hero-act .btn{margin-left:0;margin-top:26px}
   .stage{aspect-ratio:1/1;max-width:none}
-  .stage img{width:62%}
   .band-grid{grid-template-columns:repeat(4,1fr)}
   .versus{grid-template-columns:1fr 1fr}
   .fgrid{grid-template-columns:1fr 1fr}
